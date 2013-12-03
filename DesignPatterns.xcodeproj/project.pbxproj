@@ -23,6 +23,7 @@
 		5730C2C8184C1F3900167E20 /* DesignPatternsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5730C2C7184C1F3900167E20 /* DesignPatternsTests.m */; };
 		5730C2D3184C203E00167E20 /* UITableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5730C2D2184C203E00167E20 /* UITableVC.m */; };
 		578B4E44184D8C2C00FC6CE6 /* AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 578B4E43184D8C2C00FC6CE6 /* AbstractFactory.m */; };
+		578B4E48184D9DEA00FC6CE6 /* BuilderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 578B4E47184D9DEA00FC6CE6 /* BuilderVC.m */; };
 		57A15CEB184D73D600D65005 /* Earth.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A15CE5184D73D600D65005 /* Earth.m */; };
 		57A15CEC184D73D600D65005 /* SingletonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A15CE7184D73D600D65005 /* SingletonVC.m */; };
 		57A15CED184D73D600D65005 /* FactoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A15CEA184D73D600D65005 /* FactoryVC.m */; };
@@ -65,6 +66,8 @@
 		5730C2D2184C203E00167E20 /* UITableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableVC.m; sourceTree = "<group>"; };
 		578B4E42184D8C2C00FC6CE6 /* AbstractFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
 		578B4E43184D8C2C00FC6CE6 /* AbstractFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractFactory.m; sourceTree = "<group>"; };
+		578B4E46184D9DEA00FC6CE6 /* BuilderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderVC.h; sourceTree = "<group>"; };
+		578B4E47184D9DEA00FC6CE6 /* BuilderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuilderVC.m; sourceTree = "<group>"; };
 		57A15CE4184D73D600D65005 /* Earth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Earth.h; sourceTree = "<group>"; };
 		57A15CE5184D73D600D65005 /* Earth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Earth.m; sourceTree = "<group>"; };
 		57A15CE6184D73D600D65005 /* SingletonVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonVC.h; sourceTree = "<group>"; };
@@ -181,6 +184,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		578B4E45184D9D9800FC6CE6 /* 建造者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				578B4E46184D9DEA00FC6CE6 /* BuilderVC.h */,
+				578B4E47184D9DEA00FC6CE6 /* BuilderVC.m */,
+			);
+			path = "建造者模式";
+			sourceTree = "<group>";
+		};
 		57A15CE3184D73D600D65005 /* 单例模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +229,7 @@
 		57A3D56A184C914A00B9BBAE /* pattern */ = {
 			isa = PBXGroup;
 			children = (
+				578B4E45184D9D9800FC6CE6 /* 建造者模式 */,
 				57A15CEE184D742E00D65005 /* 抽象工厂模式 */,
 				57A15CE3184D73D600D65005 /* 单例模式 */,
 				57A15CE8184D73D600D65005 /* 工厂方法模式 */,
@@ -323,6 +336,7 @@
 			files = (
 				57A15CF4184D756800D65005 /* Factory.m in Sources */,
 				57A15CEB184D73D600D65005 /* Earth.m in Sources */,
+				578B4E48184D9DEA00FC6CE6 /* BuilderVC.m in Sources */,
 				578B4E44184D8C2C00FC6CE6 /* AbstractFactory.m in Sources */,
 				57A15CF1184D745400D65005 /* AbstractFactoryVC.m in Sources */,
 				57A3D574184C934C00B9BBAE /* ConfigManager.m in Sources */,

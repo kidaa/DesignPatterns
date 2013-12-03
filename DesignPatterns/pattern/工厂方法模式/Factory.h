@@ -9,10 +9,12 @@
 #import <Foundation/Foundation.h>
 
 
-
+// 产品
 @interface Car : NSObject
 
 @property (nonatomic, copy) NSString *name;
+
++(id) car;
 
 @end
 
@@ -24,9 +26,24 @@
 
 @end
 
+
+
+//工厂接口
 @interface Factory : NSObject
 
-+(id) getBMWCar;
-+(id) getPorscheCar;
-
++(id) getProduct;
 @end
+
+// 工厂实现
+@interface BMWFactory :Factory
++(id) getProduct;
+@end
+
+@interface PorscheFactory :Factory
++(id) getProduct;
+@end
+
+
+
+
+

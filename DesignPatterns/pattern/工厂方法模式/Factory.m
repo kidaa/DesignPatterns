@@ -10,7 +10,9 @@
 
 
 @implementation Car
-
++(id) car{
+    return nil;
+}
 @end
 
 @implementation BMWCar : Car
@@ -22,6 +24,11 @@
     }
     return self;
 }
+
++(id) car{
+    return [[BMWCar alloc] init];
+}
+
 @end
 
 @implementation PorscheCar : Car
@@ -33,17 +40,39 @@
     }
     return self;
 }
+
++(id) car{
+    return [[PorscheCar alloc] init];
+}
 @end
 
 @implementation Factory
-
-+(id) getBMWCar{
-    BMWCar *car = [[BMWCar alloc] init];
-    return car;
-}
-
-+(id) getPorscheCar{
-    PorscheCar *car = [[PorscheCar alloc] init];
-    return car;
++(id) getProduct{
+    return nil;
 }
 @end
+
+@implementation BMWFactory
+
++(id) getProduct{
+    Car *car = [BMWCar car];
+    return car;
+}
+
+@end
+
+
+@implementation PorscheFactory
+
++(id) getProduct{
+    Car *car = [PorscheCar car];
+    return car;
+}
+
+@end
+
+
+
+
+
+
