@@ -11,20 +11,39 @@
 
 @implementation Car
 
+@end
 
+@implementation BMWCar : Car
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        self.name = @"BMW";
+    }
+    return self;
+}
+@end
+
+@implementation PorscheCar : Car
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        self.name = @"Porsche";
+    }
+    return self;
+}
 @end
 
 @implementation Factory
 
 +(id) getBMWCar{
-    Car *car = [[Car alloc] init];
-    car.name = @"BMW";
+    BMWCar *car = [[BMWCar alloc] init];
     return car;
 }
 
 +(id) getPorscheCar{
-    Car *car = [[Car alloc] init];
-    car.name = @"Porsche";
+    PorscheCar *car = [[PorscheCar alloc] init];
     return car;
 }
 @end

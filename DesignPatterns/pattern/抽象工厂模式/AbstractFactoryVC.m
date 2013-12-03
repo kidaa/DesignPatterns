@@ -7,6 +7,7 @@
 //
 
 #import "AbstractFactoryVC.h"
+#import "AbstractFactory.h"
 
 @interface AbstractFactoryVC ()
 
@@ -27,9 +28,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
     UILabel *label = [ConfigManager getDescriptionLabelWithString:@"Provide an interface for creating families of related or dependent objects without specifying their concrete classes.（为创建一组相关或相互依赖的对象提供一个接口，而且无需指定它们的具体类。）"];
     [self.view addSubview:label];
     ////////////////////////////////////////////////////////////
+    
+    Bulldozer *bulldozer = [AbstractFactory getGiantBulldozer];
+    NSLogD(@"%@",bulldozer.name);
+    Truck *truck = [AbstractFactory getBigTruck];
+    NSLogD(@"%@", truck.name);
 }
 
 - (void)didReceiveMemoryWarning

@@ -19,7 +19,9 @@
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
-        self.list = @[@{@"title": @"singleton", @"className": @"SingletonVC"}];
+        self.list = @[@{@"title": @"Singleton", @"className": @"SingletonVC"},
+                      @{@"title": @"Factory", @"className": @"FactoryVC"},
+                      @{@"title": @"Abstract Factory", @"className": @"AbstractFactoryVC"}];
     }
     return self;
 }

@@ -19,7 +19,6 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        self.view.backgroundColor = [UIColor whiteColor];
         [Earth sharedInstance].land = 4;
     }
     return self;
@@ -29,6 +28,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
     UILabel *label = [ConfigManager getDescriptionLabelWithString:@"Ensure a class has only one instance, and provide a global point of access to it.（确保某一个类只有一个实例，而且自行实例化并向整个系统提供这个实例。）"];
     [self.view addSubview:label];
 ////////////////////////////////////////////////////////////

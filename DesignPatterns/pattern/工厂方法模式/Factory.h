@@ -16,6 +16,14 @@
 
 @end
 
+@interface BMWCar : Car
+
+@end
+
+@interface PorscheCar : Car
+
+@end
+
 @interface Factory : NSObject
 
 +(id) getBMWCar;
