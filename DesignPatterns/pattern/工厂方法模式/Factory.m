@@ -25,7 +25,7 @@
     return self;
 }
 
-+(id) car{
++(Car *) car{
     return [[BMWCar alloc] init];
 }
 
@@ -41,7 +41,7 @@
     return self;
 }
 
-+(id) car{
++(Car *) car{
     return [[PorscheCar alloc] init];
 }
 @end
@@ -54,7 +54,7 @@
 
 @implementation BMWFactory
 
-+(id) getProduct{
++(Car *) getProduct{
     Car *car = [BMWCar car];
     return car;
 }
@@ -64,7 +64,7 @@
 
 @implementation PorscheFactory
 
-+(id) getProduct{
++(Car *) getProduct{
     Car *car = [PorscheCar car];
     return car;
 }
