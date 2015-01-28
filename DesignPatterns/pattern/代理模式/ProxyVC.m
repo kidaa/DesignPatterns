@@ -7,6 +7,7 @@
 //
 
 #import "ProxyVC.h"
+#import "Proxy.h"
 
 @interface ProxyVC ()
 
@@ -37,4 +38,15 @@
 }
 */
 
+- (void)demo
+{
+    // 生成一个xx
+    RealSubject *subject = [[RealSubject alloc] init];
+    
+    // 生成一个代理类
+    Proxy *proxy = [[Proxy alloc] initWithObject:subject];
+    
+    [proxy request];
+    
+}
 @end

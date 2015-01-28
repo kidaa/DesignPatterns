@@ -29,7 +29,7 @@
 
 @implementation Proxy
 
-// 传递代理者
+// 传递被代理者
 - (id)initWithObject:(id <Subject>)object
 {
     self = [super init];
