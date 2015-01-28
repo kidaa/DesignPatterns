@@ -43,12 +43,14 @@
 
 @implementation AbstractFactory
 
-+(id) getGiantBulldozer{
++ (id)getGiantBulldozer
+{
     GiantBulldozer *bulldozer = [[GiantBulldozer alloc] init];
     return bulldozer;
 }
 
-+(id) getBigTruck{
++ (id)getBigTruck
+{
     BigTruck *car = [[BigTruck alloc] init];
     return car;
 }

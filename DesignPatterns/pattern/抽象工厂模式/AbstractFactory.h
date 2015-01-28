@@ -34,7 +34,7 @@
 // 抽象工厂
 @interface AbstractFactory : NSObject
 
-+(AbstractProduct *) getGiantBulldozer;
-+(AbstractProduct *) getBigTruck;
++ (AbstractProduct *)getGiantBulldozer;
++ (AbstractProduct *)getBigTruck;
 
 @end

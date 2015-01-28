@@ -13,7 +13,10 @@
 {
     static dispatch_once_t once;
     static Earth * __singleton__;
-    dispatch_once( &once, ^{ __singleton__ = [[Earth alloc] init]; } );
+    dispatch_once(&once, ^{
+        __singleton__ = [[self alloc] init];
+    });
+    
     return __singleton__;
 }
 - (id)init

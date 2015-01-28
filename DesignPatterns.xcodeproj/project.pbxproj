@@ -30,6 +30,8 @@
 		57A15CF1184D745400D65005 /* AbstractFactoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A15CF0184D745400D65005 /* AbstractFactoryVC.m */; };
 		57A15CF4184D756800D65005 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A15CF3184D756800D65005 /* Factory.m */; };
 		57A3D574184C934C00B9BBAE /* ConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A3D573184C934C00B9BBAE /* ConfigManager.m */; };
+		57E2AAAE1A78870800EFABB1 /* ProxyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E2AAAD1A78870800EFABB1 /* ProxyVC.m */; };
+		57E2AAB11A78878100EFABB1 /* Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E2AAB01A78878100EFABB1 /* Proxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,10 @@
 		57A15CF3184D756800D65005 /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
 		57A3D572184C934C00B9BBAE /* ConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigManager.h; sourceTree = "<group>"; };
 		57A3D573184C934C00B9BBAE /* ConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigManager.m; sourceTree = "<group>"; };
+		57E2AAAC1A78870800EFABB1 /* ProxyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProxyVC.h; sourceTree = "<group>"; };
+		57E2AAAD1A78870800EFABB1 /* ProxyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProxyVC.m; sourceTree = "<group>"; };
+		57E2AAAF1A78878100EFABB1 /* Proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Proxy.h; sourceTree = "<group>"; };
+		57E2AAB01A78878100EFABB1 /* Proxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Proxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,12 +235,24 @@
 		57A3D56A184C914A00B9BBAE /* pattern */ = {
 			isa = PBXGroup;
 			children = (
+				57E2AAAB1A78863F00EFABB1 /* 代理模式 */,
 				578B4E45184D9D9800FC6CE6 /* 建造者模式 */,
 				57A15CEE184D742E00D65005 /* 抽象工厂模式 */,
 				57A15CE3184D73D600D65005 /* 单例模式 */,
 				57A15CE8184D73D600D65005 /* 工厂方法模式 */,
 			);
 			path = pattern;
+			sourceTree = "<group>";
+		};
+		57E2AAAB1A78863F00EFABB1 /* 代理模式 */ = {
+			isa = PBXGroup;
+			children = (
+				57E2AAAC1A78870800EFABB1 /* ProxyVC.h */,
+				57E2AAAD1A78870800EFABB1 /* ProxyVC.m */,
+				57E2AAAF1A78878100EFABB1 /* Proxy.h */,
+				57E2AAB01A78878100EFABB1 /* Proxy.m */,
+			);
+			path = "代理模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,7 +354,9 @@
 			files = (
 				57A15CF4184D756800D65005 /* Factory.m in Sources */,
 				57A15CEB184D73D600D65005 /* Earth.m in Sources */,
+				57E2AAB11A78878100EFABB1 /* Proxy.m in Sources */,
 				578B4E48184D9DEA00FC6CE6 /* BuilderVC.m in Sources */,
+				57E2AAAE1A78870800EFABB1 /* ProxyVC.m in Sources */,
 				578B4E44184D8C2C00FC6CE6 /* AbstractFactory.m in Sources */,
 				57A15CF1184D745400D65005 /* AbstractFactoryVC.m in Sources */,
 				57A3D574184C934C00B9BBAE /* ConfigManager.m in Sources */,

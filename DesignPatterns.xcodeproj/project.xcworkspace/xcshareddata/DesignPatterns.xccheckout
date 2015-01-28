@@ -10,29 +10,29 @@
 	<string>DesignPatterns</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>59ECDF03-6C54-4B73-BC7C-5FB49508A042</key>
+		<key>CDCB130267172ED00B7368E076BC9FD5DD64ED49</key>
 		<string>https://github.com/uxyheaven/DesignPatterns.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>DesignPatterns.xcodeproj/project.xcworkspace</string>
+	<string>DesignPatterns.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>59ECDF03-6C54-4B73-BC7C-5FB49508A042</key>
+		<key>CDCB130267172ED00B7368E076BC9FD5DD64ED49</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/uxyheaven/DesignPatterns.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>59ECDF03-6C54-4B73-BC7C-5FB49508A042</string>
+	<string>CDCB130267172ED00B7368E076BC9FD5DD64ED49</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>59ECDF03-6C54-4B73-BC7C-5FB49508A042</string>
+			<string>CDCB130267172ED00B7368E076BC9FD5DD64ED49</string>
 			<key>IDESourceControlWCCName</key>
 			<string>DesignPatterns</string>
 		</dict>

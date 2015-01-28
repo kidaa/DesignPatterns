@@ -14,7 +14,7 @@
 
 @property (nonatomic, copy) NSString *name;
 
-+(Car *) car;
++ (Car *)car;
 @end
 
 @interface BMWCar : Car
@@ -28,7 +28,7 @@
 
 @interface Factory : NSObject
 //工厂接口
-+(Car *) getProduct;
++ (Car *)getProduct;
 @end
 
 // 工厂实现
